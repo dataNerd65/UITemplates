@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #000;
+  background: #ecdfdf;
 }
 .wrapper {
   position: relative;
@@ -22,8 +22,15 @@ body {
   padding: 40px;
   overflow: hidden;
 }
-.wrapper:hover {
-  animation: animate 1s linear infinite;
+.form-wrapper.sign-up{
+    position: relative;
+  width: 500px;
+  height: 700px;
+  background: #000;
+  box-shadow: 0 0 50px #0ef;
+  border-radius: 20px;
+  padding: 40px;
+  overflow: hidden;
 }
 @keyframes animate {
   100% {
